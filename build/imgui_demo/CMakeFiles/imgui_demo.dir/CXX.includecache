@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/imgui/imconfig.h
+
+../libs/imgui/imgui.h
+imconfig.h
+../libs/imgui/imconfig.h
+float.h
+-
+stdarg.h
+-
+stddef.h
+-
+string.h
+-
+assert.h
+-
+stdint.h
+-
+imgui_user.h
+../libs/imgui/imgui_user.h
+
+../libs/imgui/imgui_impl_opengl2.h
+
+../libs/imgui/imgui_impl_sdl.h
+
+/home/tuket/prog/screen_info/imgui_demo/main.cpp
+imgui.h
+-
+imgui_impl_sdl.h
+-
+imgui_impl_opengl2.h
+-
+stdio.h
+-
+SDL2/SDL.h
+-
+SDL2/SDL_opengl.h
+-
+

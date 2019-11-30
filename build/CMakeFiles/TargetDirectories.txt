@@ -1,0 +1,12 @@
+/home/tuket/prog/screen_info/build/CMakeFiles/rebuild_cache.dir
+/home/tuket/prog/screen_info/build/CMakeFiles/screen_info.dir
+/home/tuket/prog/screen_info/build/CMakeFiles/edit_cache.dir
+/home/tuket/prog/screen_info/build/libs/glad/CMakeFiles/rebuild_cache.dir
+/home/tuket/prog/screen_info/build/libs/glad/CMakeFiles/glad.dir
+/home/tuket/prog/screen_info/build/libs/glad/CMakeFiles/edit_cache.dir
+/home/tuket/prog/screen_info/build/libs/imgui/CMakeFiles/rebuild_cache.dir
+/home/tuket/prog/screen_info/build/libs/imgui/CMakeFiles/imgui.dir
+/home/tuket/prog/screen_info/build/libs/imgui/CMakeFiles/edit_cache.dir
+/home/tuket/prog/screen_info/build/imgui_demo/CMakeFiles/rebuild_cache.dir
+/home/tuket/prog/screen_info/build/imgui_demo/CMakeFiles/imgui_demo.dir
+/home/tuket/prog/screen_info/build/imgui_demo/CMakeFiles/edit_cache.dir

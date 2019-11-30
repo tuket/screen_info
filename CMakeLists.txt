@@ -22,7 +22,14 @@ ENDFUNCTION(PREPEND)
 #set(SDL2_USE_STATIC_LIBS ON)
 find_package(SDL2)
 
-#add_subdirectory(libs/externals)
+find_package(OpenGL REQUIRED)
+if(OPENGL_FOUND)
+	include_directories(${OPENGL_INCLUDE_DIRS})
+	link_libraries(${OPENGL_LIBRARIES})
+endif()
+
+add_subdirectory(libs/glad)
+add_subdirectory(libs/imgui)
 
 if(SDL2_FOUND)
 	include_directories(${SDL2_INCLUDE_DIR})
@@ -36,3 +43,9 @@ PREPEND(SOURCES "src/" ${SOURCES})
 add_executable(screen_info
     ${SOURCES}
 )
+
+target_link_libraries(screen_info SDL2)
+target_link_libraries(screen_info glad)
+target_link_libraries(screen_info imgui)
+
+add_subdirectory(imgui_demo)

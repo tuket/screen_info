@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/screen_info.dir/src/main.cpp.o  -o screen_info /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so -lSDL2 libs/glad/libglad.a libs/imgui/libimgui.a -lSDL2 libs/glad/libglad.a /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so -lm -ldl -lpthread 
